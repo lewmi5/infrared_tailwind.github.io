@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolling Animations!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
+    <style>
+        @keyframes animated-gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    
+        body {
+            background: linear-gradient(90deg, 
+                #ffffff, 
+                #e6e6e6, 
+                #cccccc, 
+                #b3b3b3, 
+                #999999, 
+                #808080, 
+                #666666, 
+                #4d4d4d, 
+                #333333, 
+                #1a1a1a, 
+                #000000
+            );
+            background-size: 300% 300%;
+            animation: animated-gradient 10s ease-in-out infinite;
+        }
+    </style>
+    </head>
+<body class="bg-gray-100">
+
+    <div class="h-screen flex items-center justify-center">
+        <h1 class="text-9xl font-bold text-white font-[Arial] mix-blend-exclusion" data-aos="fade-up">INFRARED</h1>
+    </div>
+    
+    
+    <div class="h-screen flex items-center justify-center bg-white shadow-[inset_0_0px_30px_rgba(255,255,255,1)]">
+        <div class="p-8 bg-white rounded-lg shadow-md animate-wiggle gallery" data-aos="fade-right">
+            <div class="card">
+                <img src="uv.jpg" alt="Description">
+                <div class="card-title">UV</div>
+            </div>
+            <div class="card">
+                <img src="DSC09968-5.jpg" alt="Description">
+                <div class="card-title">VISIBLE</div>
+            </div>
+            <div class="card">
+                <img src="lir.jpeg" alt="Description">
+                <div class="card-title">LOW INFRARED 500NM</div>
+            </div>
+            <div class="card">
+                <img src="ir700.jpg" alt="Description">
+                <div class="card-title">LOW INFRARED 700NM</div>
+            </div>
+            <div class="card">
+                <img src="infrared.jpg" alt="Description">
+                <div class="card-title">INFRARED</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="h-screen flex items-center justify-center">
+        <img src="DSC09968-5.jpg" alt="Placeholder Image" data-aos="flip-left">
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>

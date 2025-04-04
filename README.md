@@ -1,4 +1,4 @@
-# [Infrared Scrolling Animations Project](https://lewmi5.github.io/infrared_tailwind.github.io/)
+# [Infrared webpage](https://lewmi5.github.io/infrared_tailwind.github.io/)
 
 ## Overview
 This project is a simple yet visually appealing webpage that demonstrates scrolling animations and interactive elements using Tailwind CSS and AOS.js. It features a gallery showcasing different light spectrums, including UV, visible, and infrared, with smooth transitions and hover effects. The goal is to create an engaging user experience while exploring various visual effects, including the use of blend modes for dynamic color interactions.
